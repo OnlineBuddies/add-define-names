@@ -1,6 +1,6 @@
 {
   "name": "add-define-names",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Add AMD module names to define calls, useful for bundling",
   "repository": {
     "type": "git",
