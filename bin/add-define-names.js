@@ -25,7 +25,7 @@ if (argv.h || argv._.length < 1 || (argv.n && argv._.length > 1)) {
     process.exit();
 }
 
-var eswalk = require('./eswalk');
+var eswalk = require('eswalk');
 
 argv._.forEach(function (file) {
     var moduleName = argv.name ? argv.name : file.split('/').slice(argv.strip).join('/').replace(/\.js$/, '');
